@@ -35,12 +35,13 @@ The `mixin` variant can be used to define a group of utilities that will be appl
 
 ```html
 <div class="mixin:inline-block mixin:font-bold mixin:underline">
-  <div class="mixin"></div>
-  <div class="mixin"></div>
-  <div class="mixin"></div>
-  <div class="mixin"></div>
+  <div class="mixin">Test 1</div>
+  <div class="mixin">Test 2</div>
+  <div class="mixin">Test 3</div>
+  <div class="mixin">Test 4</div>
 </div>
 ```
+<sup>[View this example on Tailwind Play](https://play.tailwindcss.com/JrwBfc7snO)</sup>
 
 In this example, the utilities `inline-block`, `font-bold`, and `underline` are applied to all elements with the `mixin` class.
 
@@ -62,6 +63,7 @@ If you need to differentiate between multiple mixins, you can use the Tailwind C
   <button class="mixin/button">Button</button>
 </div>
 ```
+<sup>[View this example on Tailwind Play](https://play.tailwindcss.com/NGONvODQCs)</sup>
 
 In this example, we've named our mixins `mixin/{name}`, allowing us to distinguish between different mixins and apply them accordingly.
 
