@@ -9,4 +9,4 @@ const EMPTY_VALUES = { values: { DEFAULT: '' } };
 const mixins = (0, plugin_1.default)(({ matchVariant }) => {
     matchVariant('mixin', (_, { modifier }) => `& .mixin${modifier ? `\\/${modifier}` : ''} { & }`, EMPTY_VALUES);
 });
-exports.default = mixins;
+module.exports = mixins;
