@@ -1,0 +1,2 @@
+!function(e,i){"object"==typeof exports&&"undefined"!=typeof module?i(require("tailwindcss/plugin")):"function"==typeof define&&define.amd?define(["tailwindcss/plugin"],i):i((e||self).plugin)}(this,function(e){function i(e){return e&&"object"==typeof e&&"default"in e?e:{default:e}}var n={values:{DEFAULT:""}},t=/*#__PURE__*/i(e).default(function(e){(0,e.matchVariant)("mixin",function(e,i){var n=i.modifier;return"& .mixin"+(n?"\\/"+n:"")+" { & }"},n)});module.exports=t});
+//# sourceMappingURL=index.umd.js.map
