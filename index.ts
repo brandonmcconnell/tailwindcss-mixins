@@ -1,4 +1,4 @@
-import plugin from 'tailwindcss/plugin';
+import plugin from 'tailwindcss/plugin.js';
 
 // using empty values here so the compiler plays nice and generates the styles without values
 const EMPTY_VALUES = { values: { DEFAULT: '' } };
